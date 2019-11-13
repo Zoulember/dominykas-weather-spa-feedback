@@ -1,0 +1,44 @@
+.WeatherApp {
+  width: auto;
+  padding: 15px 15px 15px 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.55);
+  &__Heading {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  &__SubHeading {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  &__Display {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr max-content;
+  }
+  .back {
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #7197a7;
+    border: none;
+    color: white;
+    min-width: 280px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    &:hover {
+      background-color: #557380;
+    }
+    &:focus {
+      background-color: #88b4c7;
+    }
+  }
+}
